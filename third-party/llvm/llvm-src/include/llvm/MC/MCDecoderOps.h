@@ -10,6 +10,8 @@
 #ifndef LLVM_MC_MCDECODEROPS_H
 #define LLVM_MC_MCDECODEROPS_H
 
+#include <cstdint>
+
 namespace llvm {
 
 namespace MCD {

@@ -30,6 +30,7 @@
 #include "chpl/framework/stringify-functions.h"
 #include "chpl/util/assertions.h"
 
+#include <cstdint>
 #include <cstring>
 #include <functional>
 #include <string>

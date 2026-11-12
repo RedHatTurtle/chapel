@@ -16,6 +16,7 @@
 #define LLVM_LIB_TARGET_WEBASSEMBLY_WEBASSEMBLYREGISTERINFO_H
 
 #define GET_REGINFO_HEADER
+#include <cstdint>
 #include "WebAssemblyGenRegisterInfo.inc"
 
 namespace llvm {

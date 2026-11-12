@@ -13,6 +13,8 @@
 //===----------------------------------------------------------------------===//
 
 #define QNAME(name) amd_kernel_code_t::name
+
+#include <cstdint>
 #define FLD_T(name) decltype(QNAME(name)), &QNAME(name)
 
 #define FIELD2(sname, aname, name) \

@@ -14,6 +14,7 @@
 #define LLVM_LIB_TARGET_AARCH64_AARCH64REGISTERINFO_H
 
 #define GET_REGINFO_HEADER
+#include <cstdint>
 #include "AArch64GenRegisterInfo.inc"
 
 namespace llvm {
